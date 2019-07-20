@@ -1,0 +1,18 @@
+<Context docBase="LastKadai_Youser" path="/LastKadai_Youser" reloadable="true">
+    <Resource
+        name="jdbc/mvc"
+        type="javax.sql.DataSource"
+        auth="Container"
+        factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+
+        driverClassName="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://mvc2018.ctgspmilw4ce.ap-northeast-1.rds.amazonaws.com:3306/mvc2018_chino_aoba?useUnicode=true&amp;characterEncoding=utf8&amp;useSSL=false"
+        username="chino.aoba"
+        password="oOJfczXv"
+
+        maxTotal="5"
+        maxIdle="5"
+        minIdle="1"
+        initialSize="1"
+    />
+</Context>
